@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main_animatix.css">
+	<link rel="stylesheet" href="css/gridpak.css">
+	<link rel="stylesheet" href="css/gridpak.less">
+	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/main_scripts.js"></script>
+
+	<title>Alliance catering</title>
+</head>
+
+<body>
+
+	<header class="main-header">
+		<!-- <div class="main-head"> -->
+		<div class="logo">
+			<img src="jpg/logo.svg" alt="">
+		</div>
+		<div id="menu-burger">
+			<!-- <div class="bg"></div> -->
+			<div class="container">
+				<input id="click" name="exit" type="checkbox" />
+				<label for="click">
+					<span class="burger"></span>
+					<span class="menu"></span>
+				</label>
+			</div>
+			<!-- <img src="jpg/menu.jpg" alt=""> -->
+		</div>
+		<!-- </div> -->
+
+		<div class="main-content">
+			<img src="jpg/alliance.svg" alt="">
+			<p class="main-text">Ваш надежный партнер в организации как бизнес-мероприятий (вывод новых брендов на рынок, fashion-коктейли, гала-открытия торговых моллов или бутиков, конференции любых масштабов, корпоративные мероприятия, пресс-коктейли, выставки), так и частных приемов,
+				таких как свадьба, юбилей, торжественный ужин, барбекю или же детский праздник.
+			</p>
+			<div class="main-arrow">
+				<img src="jpg/arrow.svg" alt="">
+			</div>
+		</div>
+
+		<div class="main-navigation"></div>
+	</header>
+	<div id="overlay-menu">
+		<p>ALLIANCE CATTERING</p>
+		<p>ALLIANCE CATTERING</p>
+		<p>ALLIANCE CATTERING</p>
+		<p>ALLIANCE CATTERING</p>
+	</div>
+	<!-- <main class="main-about">
+	</main> -->
+
+	<script type="text/javascript">
+		$('#click').click(function() {
+			var overlayMenu = $('#overlay-menu'),
+				menuIconLines = $('#mclick .menu-icon'),
+				menuBurger = $('#menu-burger');
+
+			if (overlayMenu.hasClass('open')) {
+				overlayMenu.removeClass('open');
+				menuIconLines.removeClass('open');
+				menuBurger.removeClass('open');
+			} else {
+				overlayMenu.addClass('open');
+				// menuIconLines.addClass('open');
+				// menuBurger.addClass('open');
+			};
+
+
+		})
+	</script>
+
+
+
+</body>
+
+</html>

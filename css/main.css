@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+.main-title:after {
+  content: "";
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  width: 60px;
+  height: 1px;
+  background: #fff;
+  /*background-color: yellow;*/
+}
+.main-header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 820px;
+  width: 100%;
+  background-image: url(../images/2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  /*	положение картинки в диве */
+}
+.main-text {
+  font-family: 'EB Garamond', serif;
+  color: #ffffff;
+  padding-top: 5%;
+  max-width: 600px;
+  min-width: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 18px;
+  line-height: 1.7;
+  align-self: center;
+  text-align: center;
+  /*background-color: green;*/
+  margin-top: -20px;
+}
+.logo {
+  display: flex;
+  position: absolute;
+  height: 61px;
+  width: auto;
+  /*background-color: green;*/
+}
+#menu-burger.open {
+  background: #fff;
+  z-index: 100;
+}
+#menu-burger {
+  display: flex;
+  z-index: 100;
+  position: absolute;
+  margin-right: 10px;
+  margin-top: 10px;
+  right: 0;
+  width: 61px;
+  height: 61px;
+  background-color: white;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  text-align: center;
+  justify-content: center;
+}
+.main-content img {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.main-arrow {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 40px;
+}
+.main-navigation {
+  display: flex;
+  right: 0px;
+  bottom: 0;
+  position: absolute;
+  width: 290px;
+  height: 60px;
+  background-color: #ffffff;
+}
+/*POPup*/
+#overlay-menu {
+  position: fixed;
+  background: white;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  z-index: 100;
+  top: -100%;
+  transition: 0.6s;
+  animation-name: move-menu;
+  animation-duration: 4s;
+}
+/*@keyframes move-menu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+#overlay-menu.open {
+  z-index: 0;
+  top: 0%;
+}
+/*.main-menu-popup{
+  position: absolute;
+margin: 0 auto;
+height: 100%;
+width: 100%;
+text-align: center;
+background-color: white;
+right: -100%;
+
+}
+
+.main-menu-popup.open{
+  position: absolute;
+margin: 0 auto;
+height: 100%;
+width: 100%;
+text-align: center;
+background-color: white;
+right: 0%;
+
+}*/
+/*ABOUT*/
+/*.main-about {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  height: 820px;
+background-color: #e8e9eb;
+
+}*/
