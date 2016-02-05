@@ -88,7 +88,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 566833,
+		"initialSize": 1.68322e+06,
 		"inputAbbreviatedPath": "\/images\/5.jpg",
 		"outputAbbreviatedPath": "\/images\/5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -144,17 +144,6 @@
 		"initialSize": 1623,
 		"inputAbbreviatedPath": "\/jpg\/menu.jpg",
 		"outputAbbreviatedPath": "\/jpg\/menu.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/jpg\/slider\/slide_01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.68322e+06,
-		"inputAbbreviatedPath": "\/jpg\/slider\/slide_01.jpg",
-		"outputAbbreviatedPath": "\/jpg\/slider\/slide_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
