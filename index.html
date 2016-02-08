@@ -11,6 +11,11 @@
 	<link rel="stylesheet" href="css/gridpak.css">
 	<link rel="stylesheet" href="css/gridpak.less">
 	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+	<!-- jQuery library (served from Google) -->
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
 
 
 	<title>Alliance catering</title>
@@ -30,6 +35,7 @@
 	<!-- Slide_01 -->
 	<header class="slide-01">
 		<!-- <div class="main-head"> -->
+
 		<div class="logo">
 			<img src="jpg/logo.svg" alt="">
 		</div>
@@ -45,6 +51,12 @@
 			</div>
 			<!-- <img src="jpg/menu.jpg" alt=""> -->
 		</div>
+
+<!-- _____ -->
+
+
+
+
 		<!-- </div> -->
 
 		<!-- Paginator -->
@@ -62,6 +74,15 @@
 				<img src="jpg/arrow.svg" alt="">
 			</div>
 		</div>
+
+
+		<!-- Slider -->
+
+
+
+
+
+
 		<div class="main-navigation">
 			 <a class="brandico-facebook"></a>
 			 <a class="entypo-pinterest"></a>
@@ -72,10 +93,9 @@
 			<div class="arrow-navigation">
 				<a href="#" class="arrow left"></a>
 				<a href="#" class="arrow right"></a>
-
 			</div>
-
 		</div>
+
 	</header>
 	<div id="overlay-menu">
 		<h2><a href="index.html">ФИЛОСОФИЯ</a></h2>
@@ -110,7 +130,7 @@
 	<!-- Slide_03 -->
 	<div class="slide-03">
 <div class="slide-03_dropDown">
-	<div class="dropDown-tittle"><h2>МИССИЯ</h2></div>
+	<div class="dropDown-tittle"><h2 class="click-01">МИССИЯ</h2></div>
 
 	<div class="dropDown-01">
 		<img class="dropDownNomber01" src="jpg/01.svg" alt="">
@@ -120,7 +140,7 @@
 			и способах подачи блюд, в накрытии и оформлении столов, придерживаясь незыблемых правил идеального сервиса.
 		</p>
 	</div>
-		<div class="dropDown-tittle"><h2>ЗАДАЧИ</h2></div>
+		<div class="dropDown-tittle"><h2 class="click-02">ЗАДАЧИ</h2></div>
 	<div class="dropDown-02">
 		<img class="dropDownNomber02" src="jpg/02.svg" alt="">
 		<p>
@@ -130,7 +150,7 @@
 
 		</p>
 	</div>
-		<div class="dropDown-tittle"><h2>ВИДЕНИЕ</h2></div>
+		<div class="dropDown-tittle"><h2 class="click-03">ВИДЕНИЕ</h2></div>
 	<div class="dropDown-03">
 		<img class="dropDownNomber03" src="jpg/03.svg" alt="">
 		<p>
@@ -153,7 +173,7 @@
 <div class="slide-04">
 	<div class="Dishes">
 		<div></div>
-	
+
 	</div>
 	<div class="Service">
 		<div></div>
@@ -181,7 +201,57 @@
 
 
 		})
+
 	</script>
+
+<script type="text/javascript">
+// slide_01
+$(document).ready(function(){
+$('.dropDown-01').show();
+$('.click-01').click(function(){
+	$('.dropDown-01').slideToggle();
+		$('.dropDown-02').hide(200);
+		$('.dropDown-03').hide(200);
+		$('.click-01').css('color','#ba1717');
+			$('.click-02').css('color','#1c1c1c');
+				$('.click-03').css('color','#1c1c1c');
+			$('.dropDownNomber01').animate({left: "+10"}, "slow");
+			$('.dropDownNomber02').animate({left: "-10"}, "slow");
+			$('.dropDownNomber03').animate({left: "-10"}, "slow");
+});
+
+// slide-02
+$('.dropDown-02').hide();
+$('.click-02').click(function(){
+	$('.dropDown-02').slideToggle();
+	$('.dropDown-01').hide(200);
+		$('.dropDown-03').hide(200);
+		$('.click-02').css('color','#ba1717');
+			$('.click-01').css('color','#1c1c1c');
+				$('.click-03').css('color','#1c1c1c');
+		$('.dropDownNomber02').animate({left: "+10"}, "slow");
+		$('.dropDownNomber01').animate({left: "-10"}, "slow");
+		$('.dropDownNomber03').animate({left: "-10"}, "slow");
+
+
+});
+
+// slide-03
+$('.dropDown-03').hide();
+$('.click-03').click(function(){
+	$('.dropDown-03').slideToggle();
+	$('.dropDown-01').hide(200);
+	$('.dropDown-02').hide(200);
+	$('.click-03').css('color','#ba1717');
+		$('.click-01').css('color','#1c1c1c');
+			$('.click-02').css('color','#1c1c1c');
+	$('.dropDownNomber03').animate({left: "+10"}, "slow");
+	$('.dropDownNomber01').animate({left: "-10"}, "slow");
+	$('.dropDownNomber02').animate({left: "-10"}, "slow");
+
+
+});
+})</script>
 
 
 

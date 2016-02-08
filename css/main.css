@@ -996,6 +996,7 @@ body {
   background-color: #ffffff;
 }
 .slide-01 {
+  overflow: hidden;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -1071,6 +1072,7 @@ body {
   width: 290px;
   height: 60px;
   background-color: #ffffff;
+  z-index: 20;
 }
 .main-navigation p {
   font-family: 'EB Garamond', serif;
@@ -1381,12 +1383,10 @@ body {
 .dropDown-02 {
   height: 23%;
   padding-bottom: 30px;
-  display: none;
 }
 .dropDown-03 {
   height: 23%;
   padding-bottom: 30px;
-  display: none;
 }
 .slide-04 {
   display: flex;

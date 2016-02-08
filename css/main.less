@@ -22,6 +22,7 @@
 
 // Styles// --------------------------------
 .slideContent_column(){
+  	overflow: hidden;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -94,6 +95,70 @@ body {
   background-repeat: no_repeat;
   background-position: 50%, 50%;
 }
+
+// Slider
+
+// @keyframes slidy {
+//   0% {
+//     left: 0%;
+//   }
+//   20% {
+//     left: 0%;
+//   }
+//   25% {
+//     left: -100%;
+//   }
+//   45% {
+//     left: -100%;
+//   }
+//   50% {
+//     left: -200%;
+//   }
+//   70% {
+//     left: -200%;
+//   }
+//   75% {
+//     left: -300%;
+//   }
+//   95% {
+//     left: -300%;
+//   }
+//   100% {
+//     left: -400%;
+//   }
+// }
+//
+// body {
+//   margin: 0;
+// }
+//
+// div#slider {
+//   overflow: hidden;
+// }
+//
+// div#slider figure img {
+//   width: 20%;
+//   float: left;
+// }
+//
+// div#slider figure {
+//   position: relative;
+//   width: 500%;
+//   margin: 0;
+//   left: 0;
+//   text-align: left;
+//   font-size: 0;
+//   animation: 20s slidy infinite;
+
+// /**
+//
+//
+//   // -----
+//
+//
+//
+//
+//
 .main-text {
   .pWhite;
   padding-top: 5%;
@@ -129,6 +194,7 @@ body {
 }
 .main-content {
   display: flex;
+  // z-index: 200;
   flex-direction: column;
   margin-left: 10%;
   margin-right: 10%;
@@ -145,6 +211,7 @@ body {
   bottom: 60px;
   align-self: center;
   width: 40px;
+
 }
 .main-navigation {
   right: 0;
@@ -153,6 +220,7 @@ body {
   width: 290px;
   height: 60px;
   background-color: @white;
+  z-index: 20;
   p{
     .pWhiteBig;
     position: absolute;
@@ -162,7 +230,7 @@ body {
   }
 }
 
-// SocIcons// --------------------------------
+// // SocIcons// --------------------------------
 
 .iconStyle(){
   display: inline-block;
@@ -193,8 +261,8 @@ body {
 }
 
 
-// Arrow in navigator// --------------------------------
-
+// // Arrow in navigator// --------------------------------
+//
 .arrow-navigation:after{
   content: "";
   display: flex;
@@ -454,21 +522,19 @@ cursor: pointer;
 
 .dropDown-01{
   height: 35%;
-  // background-color: red;
 
 
 }
 .dropDown-02{
   height: 23%;
   padding-bottom: 30px;
-  // background-color: red;
-  display: none;
+
+
 }
 .dropDown-03{
   height: 23%;
   padding-bottom: 30px;
-  // background-color: red;
-    display: none;
+
 }
 
 // Slide-04// --------------------------------
@@ -493,6 +559,7 @@ background-color: @white;
 align-self: center;
 height: 350px;
 width: 350px;
+
 margin-top: 300px;
     background-color: @white;
     transition: all .5s;
