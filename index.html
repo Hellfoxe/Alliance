@@ -37,8 +37,10 @@
 		<!-- <div class="main-head"> -->
 
 		<div class="logo">
-			<img src="jpg/logo.svg" alt="">
+			  <img class="logo-white" src="jpg/logo.svg" alt="">
+				<img class="logo-red" src="jpg/logo-red.svg" alt="">
 		</div>
+
 		<div id="menu-burger">
 
 			<!-- <div class="bg"></div> -->
@@ -208,6 +210,7 @@
 // slide_01
 $(document).ready(function(){
 $('.dropDown-01').show();
+$('.click-01').css('color','#ba1717');
 $('.click-01').click(function(){
 	$('.dropDown-01').slideToggle();
 		$('.dropDown-02').hide(200);
@@ -252,7 +255,35 @@ $('.click-03').click(function(){
 
 });
 })</script>
+<script type="text/javascript">
+$('.logo-red').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() > 720){
+$('.logo-white').hide(0);
+$('.logo-red').show(0);
+}
+// else{
+// // $('.logo-red').show('fast');
+// }
+});
 
+
+</script>
+<script type="text/javascript">
+
+$('.logo-red').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() < 720){
+$('.logo-white').show(0);
+$('.logo-red').hide(0);
+}
+// else{
+// // $('.logo-red').show('fast');
+// }
+});
+
+
+</script>
 
 
 </body>

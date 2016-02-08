@@ -1028,6 +1028,7 @@ body {
   position: fixed;
   padding-top: 10px;
   height: 61px;
+  margin-left: 20px;
   width: auto;
   z-index: 200;
 }
