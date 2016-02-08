@@ -1032,6 +1032,9 @@ body {
   width: auto;
   z-index: 200;
 }
+.logo-red {
+  display: none;
+}
 #menu-burger.open {
   background: #fff;
   z-index: 500;

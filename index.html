@@ -11,11 +11,9 @@
 	<link rel="stylesheet" href="css/gridpak.css">
 	<link rel="stylesheet" href="css/gridpak.less">
 	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
-	<!-- jQuery library (served from Google) -->
-<!-- bxSlider Javascript file -->
-<script src="js/jquery.bxslider.js"></script>
-<!-- bxSlider CSS file -->
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+<script src="js/main_scripts.js"></script>
+
 
 
 	<title>Alliance catering</title>
@@ -184,7 +182,9 @@
 		<div></div>
 	</div>
 </div>
-<!-- Scripts -->
+
+
+<!-- Menu-->
 	<script type="text/javascript">
 		$('#click').click(function() {
 			var overlayMenu = $('#overlay-menu'),
@@ -200,90 +200,13 @@
 				// menuIconLines.addClass('open');
 				// menuBurger.addClass('open');
 			};
-
-
 		})
-
 	</script>
 
-<script type="text/javascript">
-// slide_01
-$(document).ready(function(){
-$('.dropDown-01').show();
-$('.click-01').css('color','#ba1717');
-$('.click-01').click(function(){
-	$('.dropDown-01').slideToggle();
-		$('.dropDown-02').hide(200);
-		$('.dropDown-03').hide(200);
-		$('.click-01').css('color','#ba1717');
-			$('.click-02').css('color','#1c1c1c');
-				$('.click-03').css('color','#1c1c1c');
-			$('.dropDownNomber01').animate({left: "+10"}, "slow");
-			$('.dropDownNomber02').animate({left: "-10"}, "slow");
-			$('.dropDownNomber03').animate({left: "-10"}, "slow");
-});
-
-// slide-02
-$('.dropDown-02').hide();
-$('.click-02').click(function(){
-	$('.dropDown-02').slideToggle();
-	$('.dropDown-01').hide(200);
-		$('.dropDown-03').hide(200);
-		$('.click-02').css('color','#ba1717');
-			$('.click-01').css('color','#1c1c1c');
-				$('.click-03').css('color','#1c1c1c');
-		$('.dropDownNomber02').animate({left: "+10"}, "slow");
-		$('.dropDownNomber01').animate({left: "-10"}, "slow");
-		$('.dropDownNomber03').animate({left: "-10"}, "slow");
 
 
-});
-
-// slide-03
-$('.dropDown-03').hide();
-$('.click-03').click(function(){
-	$('.dropDown-03').slideToggle();
-	$('.dropDown-01').hide(200);
-	$('.dropDown-02').hide(200);
-	$('.click-03').css('color','#ba1717');
-		$('.click-01').css('color','#1c1c1c');
-			$('.click-02').css('color','#1c1c1c');
-	$('.dropDownNomber03').animate({left: "+10"}, "slow");
-	$('.dropDownNomber01').animate({left: "-10"}, "slow");
-	$('.dropDownNomber02').animate({left: "-10"}, "slow");
 
 
-});
-})</script>
-<script type="text/javascript">
-$('.logo-red').hide();
-$(window).scroll(function() {
-if ($(this).scrollTop() > 720){
-$('.logo-white').hide(0);
-$('.logo-red').show(0);
-}
-// else{
-// // $('.logo-red').show('fast');
-// }
-});
-
-
-</script>
-<script type="text/javascript">
-
-$('.logo-red').hide();
-$(window).scroll(function() {
-if ($(this).scrollTop() < 720){
-$('.logo-white').show(0);
-$('.logo-red').hide(0);
-}
-// else{
-// // $('.logo-red').show('fast');
-// }
-});
-
-
-</script>
 
 
 </body>
