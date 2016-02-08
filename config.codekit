@@ -117,6 +117,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Dishes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278337,
+		"inputAbbreviatedPath": "\/images\/Dishes.jpg",
+		"outputAbbreviatedPath": "\/images\/Dishes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/laying.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 733831,
+		"inputAbbreviatedPath": "\/images\/laying.jpg",
+		"outputAbbreviatedPath": "\/images\/laying.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/pattern.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -124,6 +146,17 @@
 		"initialSize": 118,
 		"inputAbbreviatedPath": "\/images\/pattern.png",
 		"outputAbbreviatedPath": "\/images\/pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Service.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422386,
+		"inputAbbreviatedPath": "\/images\/Service.jpg",
+		"outputAbbreviatedPath": "\/images\/Service.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1248,6 +1248,7 @@ body {
 .slide-02 {
   display: flex;
   position: relative;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
 }
@@ -1309,6 +1310,7 @@ body {
   z-index: 10;
   display: flex;
   position: relative;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
   background-image: url(../images/2.jpg);
@@ -1375,14 +1377,109 @@ body {
 }
 .dropDown-01 {
   height: 35%;
-  display: none;
 }
 .dropDown-02 {
   height: 23%;
   padding-bottom: 30px;
+  display: none;
 }
 .dropDown-03 {
   height: 23%;
   padding-bottom: 30px;
   display: none;
+}
+.slide-04 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+.Dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 34%;
+  background-image: url(../images/Dishes.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+}
+.Dishes div {
+  align-self: center;
+  height: 350px;
+  width: 350px;
+  margin-top: 300px;
+  background-color: #ffffff;
+  transition: all .5s;
+}
+.Dishes:hover {
+  background-position: 20%, 100%;
+}
+.Dishes:hover div {
+  height: 360px;
+  width: 360px;
+}
+.Service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  background-image: url(../images/Service.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+}
+.Service div {
+  align-self: center;
+  height: 350px;
+  width: 350px;
+  margin-top: 300px;
+  background-color: #ffffff;
+  transition: all .5s;
+}
+.Service:hover {
+  background-position: 20%, 100%;
+}
+.Service:hover div {
+  height: 360px;
+  width: 360px;
+}
+.laying {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 34%;
+  background-image: url(../images/laying.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+}
+.laying div {
+  align-self: center;
+  height: 350px;
+  width: 350px;
+  margin-top: 300px;
+  background-color: #ffffff;
+  transition: all .5s;
+}
+.laying:hover {
+  background-position: 20%, 100%;
+}
+.laying:hover div {
+  height: 360px;
+  width: 360px;
 }

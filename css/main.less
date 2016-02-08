@@ -1,9 +1,12 @@
+// --------------------------------
+
 @white: #ffffff;
 @grey: #cecece;
 @greyDark: #727272;
 @Dark: #1c1c1c;
 @red:#ba1717;
 
+// --------------------------------
 // IconFonts
 @import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
 
@@ -17,7 +20,7 @@
   font-family: 'entypo', sans-serif;
 }
 
-// Styles
+// Styles// --------------------------------
 .slideContent_column(){
   display: flex;
   position: relative;
@@ -28,6 +31,7 @@
 .slideContent_row(){
   display: flex;
   position: relative;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
 }
@@ -79,7 +83,7 @@ body {
   background-color: @white;
 }
 
-// Slide-01
+// Slide-01// --------------------------------
 .slide-01 {
 .slideContent_column;
   background-image: url(../images/5.jpg);
@@ -158,7 +162,7 @@ body {
   }
 }
 
-// SocIcons
+// SocIcons// --------------------------------
 
 .iconStyle(){
   display: inline-block;
@@ -189,7 +193,7 @@ body {
 }
 
 
-// Arrow in navigator
+// Arrow in navigator// --------------------------------
 
 .arrow-navigation:after{
   content: "";
@@ -247,7 +251,7 @@ body {
 
 
 
-/*POPup*/
+/*POPup*/// --------------------------------
 #overlay-menu {
   position: fixed;
   padding-top: 10%;
@@ -284,7 +288,7 @@ body {
   z-index: 400;
   top: 0;
 }
-// Paginator
+// Paginator// --------------------------------
 .pagination {
   display: flex;
   height: 200px;
@@ -329,7 +333,7 @@ body {
 }
 
 
-// Slide-02
+// Slide-02// --------------------------------
 .slide-02{
 .slideContent_row
 }
@@ -383,7 +387,7 @@ margin-top: 30%;
 
 }
 
-// Slide-03
+// Slide-03// --------------------------------
 .slide-03_h2(){
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -451,14 +455,14 @@ cursor: pointer;
 .dropDown-01{
   height: 35%;
   // background-color: red;
-  display: none;
+
 
 }
 .dropDown-02{
   height: 23%;
   padding-bottom: 30px;
   // background-color: red;
-  // display: none;
+  display: none;
 }
 .dropDown-03{
   height: 23%;
@@ -466,3 +470,98 @@ cursor: pointer;
   // background-color: red;
     display: none;
 }
+
+// Slide-04// --------------------------------
+.slide-04{
+.slideContent_row;
+background-color: @white;
+}
+.Dishes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 34%;
+  background-image: url(../images/Dishes.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+  div{
+align-self: center;
+height: 350px;
+width: 350px;
+margin-top: 300px;
+    background-color: @white;
+    transition: all .5s;
+  }
+}
+.Dishes:hover{
+
+  background-position: 20%, 100%;
+  div{
+    height: 360px;
+    width: 360px;
+  }
+}
+.Service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  background-image: url(../images/Service.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+  div{
+    align-self: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 300px;
+        background-color: @white;
+        transition: all .5s;
+  }
+}
+.Service:hover{
+    background-position: 20%, 100%;
+    div{
+      height: 360px;
+      width: 360px;
+    }
+  }
+
+.laying{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 34%;
+  background-image: url(../images/laying.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  transition: all 1s;
+  div{
+    align-self: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 300px;
+        background-color: @white;
+        transition: all .5s;
+  }
+}
+.laying:hover{
+    background-position: 20%, 100%;
+    div{
+      height: 360px;
+      width: 360px;
+    }
+  }
