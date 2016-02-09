@@ -67,7 +67,7 @@ $('.click-03').click(function(){
 
 
 });
-})
+});
 
 
 

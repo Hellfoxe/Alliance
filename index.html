@@ -11,8 +11,7 @@
 	<link rel="stylesheet" href="css/gridpak.css">
 	<link rel="stylesheet" href="css/gridpak.less">
 	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
-
-<script src="js/main_scripts.js"></script>
+<script src="js/main.scripts.js"></script>
 
 
 
@@ -20,7 +19,8 @@
 </head>
 
 <body>
-
+<div class="all-main-content">
+	</div>
 	<div class="pagination">
 		<p>1/4</p>
 		<div data-tooltip="Tooltip 1" class="pagination__dot pagination__dot--active"></div>
@@ -184,25 +184,32 @@
 </div>
 
 
+</div>
+
+
 <!-- Menu-->
 	<script type="text/javascript">
 		$('#click').click(function() {
 			var overlayMenu = $('#overlay-menu'),
 				menuIconLines = $('#mclick .menu-icon'),
 				menuBurger = $('#menu-burger');
+					$('.all-main-content').fadeTo('fast', 0.5)
+
 
 			if (overlayMenu.hasClass('open')) {
 				overlayMenu.removeClass('open');
 				menuIconLines.removeClass('open');
 				menuBurger.removeClass('open');
+				$('.all-main-content').fadeTo('fast', 0);
+
 			} else {
 				overlayMenu.addClass('open');
-				// menuIconLines.addClass('open');
-				// menuBurger.addClass('open');
+				menuIconLines.addClass('open');
+				menuBurger.addClass('open');
+
 			};
 		})
 	</script>
-
 
 
 
