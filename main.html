@@ -195,12 +195,11 @@
 				menuBurger = $('#menu-burger');
 					$('.all-main-content').fadeTo('fast', 0.5)
 
-
 			if (overlayMenu.hasClass('open')) {
 				overlayMenu.removeClass('open');
 				menuIconLines.removeClass('open');
 				menuBurger.removeClass('open');
-				$('.all-main-content').fadeTo('fast', 0);
+				$('.all-main-content').css("display", "none")
 
 			} else {
 				overlayMenu.addClass('open');

@@ -981,6 +981,7 @@
 }
 body {
   margin: 0;
+  margin-right: -15px;
 }
 .all-main-content {
   height: 100vh;
@@ -990,7 +991,15 @@ body {
   z-index: 400;
   left: 0;
   display: none;
-  cursor: pointer;
+}
+.all-main-content-none {
+  height: 100vh;
+  width: 100%;
+  background: #050202;
+  position: fixed;
+  z-index: 400;
+  left: 0;
+  display: none;
 }
 .line {
   align-self: center;
@@ -1007,9 +1016,9 @@ body {
 }
 .slide-01 {
   overflow: hidden;
-  display: flex;
+  display: -webkit-flex;
   position: relative;
-  flex-direction: column;
+  -webkit-flex-direction: column;
   height: 100vh;
   width: 100%;
   background-image: url(../images/5.jpg);
@@ -1051,7 +1060,7 @@ body {
 }
 #menu-burger {
   position: fixed;
-  display: flex;
+  display: -webkit-flex;
   z-index: 500;
   margin-right: 10px;
   margin-top: 10px;
@@ -1061,13 +1070,13 @@ body {
   background-color: white;
 }
 .main-content {
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 5%;
   text-align: center;
-  justify-content: center;
+  -webkit-justify-content: center;
 }
 .main-content img {
   padding-top: 100px;
@@ -1076,7 +1085,7 @@ body {
 }
 .main-arrow {
   bottom: 60px;
-  align-self: center;
+  -webkit-align-self: center;
   width: 40px;
 }
 .main-navigation {
@@ -1139,7 +1148,7 @@ body {
 }
 .arrow-navigation:after {
   content: "";
-  display: flex;
+  display: -webkit-flex;
   order: -1;
   margin-top: 10px;
   margin-left: 30px;
@@ -1222,11 +1231,11 @@ body {
   right: 0px;
 }
 .pagination {
-  display: flex;
+  display: -webkit-flex;
   height: 200px;
   width: 45px;
   position: fixed;
-  flex-direction: column;
+  -webkit-flex-direction: column;
   align-items: center;
   margin-top: 36vh;
   margin-bottom: 60vh;
@@ -1264,9 +1273,9 @@ body {
   opacity: 1;
 }
 .slide-02 {
-  display: flex;
+  display: -webkit-flex;
   position: relative;
-  flex-direction: row;
+  -webkit-flex-direction: row;
   height: 100vh;
   width: 100%;
 }
@@ -1326,9 +1335,9 @@ body {
 }
 .slide-03 {
   z-index: 10;
-  display: flex;
+  display: -webkit-flex;
   position: relative;
-  flex-direction: row;
+  -webkit-flex-direction: row;
   height: 100vh;
   width: 100%;
   background-image: url(../images/2.jpg);
@@ -1341,7 +1350,7 @@ body {
 }
 .slide-03_dropDown {
   position: relative;
-  align-self: center;
+  -webkit-align-self: center;
   margin-left: 10%;
   padding-left: 12%;
   height: 70%;
@@ -1405,17 +1414,17 @@ body {
   padding-bottom: 30px;
 }
 .slide-04 {
-  display: flex;
+  display: -webkit-flex;
   position: relative;
-  flex-direction: row;
+  -webkit-flex-direction: row;
   height: 100vh;
   width: 100%;
   background-color: #ffffff;
 }
 .Dishes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
   width: 34%;
   background-image: url(../images/Dishes.jpg);
   -webkit-background-size: cover;
@@ -1427,7 +1436,7 @@ body {
   transition: all 1s;
 }
 .Dishes div {
-  align-self: center;
+  -webkit-align-self: center;
   height: 350px;
   width: 350px;
   margin-top: 300px;
@@ -1442,9 +1451,9 @@ body {
   width: 360px;
 }
 .Service {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
   width: 35%;
   background-image: url(../images/Service.jpg);
   -webkit-background-size: cover;
@@ -1456,7 +1465,7 @@ body {
   transition: all 1s;
 }
 .Service div {
-  align-self: center;
+  -webkit-align-self: center;
   height: 350px;
   width: 350px;
   margin-top: 300px;
@@ -1471,9 +1480,9 @@ body {
   width: 360px;
 }
 .laying {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
   width: 34%;
   background-image: url(../images/laying.jpg);
   -webkit-background-size: cover;
@@ -1485,7 +1494,7 @@ body {
   transition: all 1s;
 }
 .laying div {
-  align-self: center;
+  -webkit-align-self: center;
   height: 350px;
   width: 350px;
   margin-top: 300px;
