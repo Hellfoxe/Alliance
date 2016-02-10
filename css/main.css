@@ -1005,15 +1005,16 @@ body {
   align-self: center;
 }
 #line {
-  height: 44px;
-  width: 100%;
-  padding-top: 30%;
+  height: 30px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25%;
 }
 .cycle-slideshow {
   overflow: hidden;
-  display: -webkit-flex;
+  float: left;
   position: relative;
-  -webkit-flex-direction: column;
   height: 100vh;
   width: 100%;
 }
@@ -1061,7 +1062,6 @@ body {
 .slider-section_02 {
   width: 100%;
   height: 100%;
-  background-color: blue;
   background-image: url(../images/2.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1074,7 +1074,6 @@ body {
 .slider-section_03 {
   width: 100%;
   height: 100%;
-  background-color: yellow;
   background-image: url(../images/3.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1087,8 +1086,19 @@ body {
 .slider-section_04 {
   width: 100%;
   height: 100%;
-  background-color: red;
   background-image: url(../images/4.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-position: 50%, 50%;
+  text-align: center;
+}
+.slider-section_05 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/5.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1104,7 +1114,8 @@ body {
   color: #ffffff;
   width: 70%;
   padding-top: 24%;
-  align-self: center;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
 }
 .logo {
@@ -1136,13 +1147,13 @@ body {
 .main-content {
   float: left;
   z-index: 300;
-  width: 50%;
+  width: 70%;
   height: 60%;
   position: absolute;
   top: 0;
   margin-top: 24vh;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   display: -webkit-flex;
   -webkit-flex-direction: column;
   text-align: center;
@@ -1151,7 +1162,9 @@ body {
 .main-content img {
   top: 0;
   position: absolute;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: center;
 }
 .main-arrow {
@@ -1162,7 +1175,9 @@ body {
 }
 #arrow {
   height: 40px;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 100px;
 }
 .main-navigation {
@@ -1336,16 +1351,17 @@ body {
   opacity: 1;
 }
 .slide-02 {
-  display: -webkit-flex;
+  float: left;
   position: relative;
-  -webkit-flex-direction: row;
-  height: 100vh;
+  height: 920px;
   width: 100%;
 }
 .slide-02_image {
-  align-self: center;
-  height: 75%;
-  width: 50%;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  float: left;
+  height: 700px;
+  width: 45%;
   background-image: url(../images/02.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1358,52 +1374,43 @@ body {
 .slide-02_image img {
   margin-top: 30%;
 }
+.slide-02_img {
+  position: absolute;
+  padding-left: 100px;
+}
 .slide-02_content {
+  float: right;
+  display: block;
   position: relative;
-  align-self: center;
-  width: 38%;
-  padding-left: 9%;
+  margin-top: 110px;
+  padding-top: 90px;
+  width: 50%;
+  height: 550px;
+}
+.slide-02_content img {
+  position: absolute;
+  padding-top: 55px;
+}
+.slide-02_content img:first-child {
+  position: absolute;
+  padding-top: 55px;
 }
 .slide-02_content p {
+  padding-top: 30px;
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   line-height: 1.7;
   color: #727272;
-  padding-top: 28px;
-}
-.slide-02_content p:nth-child(2) {
-  font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #727272;
-  padding-top: 0px;
-}
-.slide-02_content .slide-02-img_01 {
-  position: absolute;
-  display: inline-block;
-  left: 7%;
-  padding-top: 28px;
-}
-.slide-02_content .slide-02-img_02 {
-  position: absolute;
-  display: inline-block;
-  left: 7%;
-  padding-top: 40px;
-}
-.slide-02_content .slide-02-img_03 {
-  position: absolute;
-  display: inline-block;
-  left: 7%;
-  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 100px;
 }
 .slide-03 {
   z-index: 10;
-  display: -webkit-flex;
+  float: left;
   position: relative;
-  -webkit-flex-direction: row;
-  height: 100vh;
+  height: 920px;
   width: 100%;
-  background-image: url(../images/2.jpg);
+  background-image: url(../images/07.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1477,10 +1484,9 @@ body {
   padding-bottom: 30px;
 }
 .slide-04 {
-  display: -webkit-flex;
+  float: left;
   position: relative;
-  -webkit-flex-direction: row;
-  height: 100vh;
+  height: 920px;
   width: 100%;
   background-color: #ffffff;
 }
