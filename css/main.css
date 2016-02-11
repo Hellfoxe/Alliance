@@ -1016,7 +1016,7 @@ body {
 }
 #line {
   height: 40px;
-  width: 80%;
+  width: width: 0;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 25%;
@@ -1369,8 +1369,11 @@ body {
   width: 100%;
 }
 .slide-02_image {
+  position: absolute;
   margin-top: 110px;
-  margin-bottom: 110px;
+  margin-bottom: -110px;
+  left: -220px;
+  opacity: 0;
   float: left;
   height: 700px;
   width: 45%;
@@ -1383,20 +1386,23 @@ body {
   background-position: 20%, 50%;
   text-align: center;
 }
-.slide-02_image img {
+.slide-02_image #oldLogo {
+  position: relative;
+  opacity: 0;
   height: 240px;
-  margin-top: 200px;
-  margin-bottom: 260px;
+  margin-top: 400px;
+  margin-bottom: 160px;
 }
 .slide-02_img {
   position: absolute;
   padding-left: 100px;
 }
 .slide-02_content {
+  opacity: 0;
   float: right;
   display: block;
   position: relative;
-  margin-top: 110px;
+  margin-top: 210px;
   padding-top: 90px;
   width: 50%;
   height: 550px;
@@ -1505,6 +1511,10 @@ body {
   height: 920px;
   width: 100%;
 }
+.dropDownNomber02 {
+  position: relative;
+  top: 50px;
+}
 .Dishes {
   float: left;
   width: 33%;
@@ -1612,4 +1622,17 @@ body {
 }
 .laying:hover {
   background-position: 20%, 100%;
+}
+.slide-05 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+  float: left;
+  position: relative;
+  height: 920px;
+  width: 100%;
 }

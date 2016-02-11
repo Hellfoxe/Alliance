@@ -122,7 +122,7 @@ display: none;
 }
 #line{
   height:40px;
-  width: 80%;
+  width: width: 0;;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 25%;
@@ -552,11 +552,15 @@ right: 0px;
 
 // Slide-02// --------------------------------
 .slide-02{
+
 .slideContent_row
 }
 .slide-02_image{
+position: absolute;
 margin-top: 110px;
-margin-bottom: 110px;
+margin-bottom: -110px;
+left:-220px;
+opacity: 0;
 
   float: left;
   height:700px;
@@ -571,10 +575,12 @@ margin-bottom: 110px;
 
   text-align: center;
 
-  img{
+  #oldLogo{
+    position: relative;
+    opacity: 0;
     height: 240px;
-margin-top: 200px;
-margin-bottom: 260px;
+margin-top: 400px;
+margin-bottom: 160px;
   }
 
 }
@@ -583,10 +589,11 @@ position: absolute;
 padding-left: 100px;
 }
 .slide-02_content{
+  opacity: 0;
   float: right;
   display:block;
   position: relative;
-  margin-top: 110px;
+  margin-top: 210px;
   padding-top: 90px;
   width: 50%;
 height: 550px;
@@ -702,6 +709,10 @@ cursor: pointer;
 .slide-04{
 .slideContent_row;
 }
+.dropDownNomber02{
+  position: relative;
+  top: 50px;
+}
 .Dishes{
   float: left;
   width: 33%;
@@ -794,4 +805,11 @@ bottom: 100px;
 .laying:hover{
     background-position: 20%, 100%;
 
+  }
+
+
+  // Slide-05// --------------------------------
+  .slide-05{
+    .p;
+  .slideContent_row;
   }

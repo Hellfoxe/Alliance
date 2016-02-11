@@ -20,6 +20,48 @@
 
 
 
+/*Scroll------->Slide02*/
+
+
+// Slide-02
+$('.slide-02_image').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() > 420){
+	$('.slide-02_image').css({opacity: "1"});
+$('.slide-02_image').animate({left: "0"}, "slow");
+}
+
+});
+
+$('.slide-02_content').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() > 460){
+	$('.slide-02_content').css({opacity: "1"});
+$('.slide-02_content').animate({bottom: "+100"}, "slow");
+}
+
+});
+
+$('#oldLogo').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() > 420){
+	$('#oldLogo').css({opacity: "1"});
+$('#oldLogo').animate({bottom: "+200"}, "slow");
+}
+
+});
+
+
+$('.dropDownNomber02').hide();
+$(window).scroll(function() {
+if ($(this).scrollTop() > 2300){
+	$('.dropDownNomber02').css({opacity: "1"});
+$('.dropDownNomber02').animate({top: "-10"}, "slow");
+}
+
+});
+
+
 // Slowmotion
 
     $(document).ready(function() {
@@ -77,6 +119,8 @@ $('.click-03').click(function(){
 
 });
 });
+
+
 
 
 
