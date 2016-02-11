@@ -19,6 +19,15 @@
 // });
 
 
+
+// Slowmotion
+
+    $(document).ready(function() {
+            $("body").css("display", "none");
+      	    $("body").fadeIn(900);
+    });
+
+
 // Animatix\
 // slide_01
 $(document).ready(function(){
