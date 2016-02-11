@@ -979,8 +979,18 @@
   line-height: 60px;
   letter-spacing: 10px;
 }
+.p {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+}
 body {
   margin: 0;
+  display: none;
 }
 .all-main-content {
   height: 100vh;
@@ -1005,8 +1015,8 @@ body {
   align-self: center;
 }
 #line {
-  height: 30px;
-  width: 80%;
+  height: 40px;
+  width: width: 0;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 25%;
@@ -1108,14 +1118,15 @@ body {
   text-align: center;
 }
 .main-text {
-  font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  line-height: 1.7;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.8;
   color: #ffffff;
-  width: 70%;
-  padding-top: 24%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 54%;
+  padding-top: 16%;
+  margin-left: 23%;
+  margin-right: 23%;
   text-align: center;
 }
 .logo {
@@ -1151,7 +1162,7 @@ body {
   height: 60%;
   position: absolute;
   top: 0;
-  margin-top: 24vh;
+  margin-top: 20vh;
   margin-left: 15%;
   margin-right: 15%;
   display: -webkit-flex;
@@ -1178,7 +1189,7 @@ body {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 100px;
+  padding-top: 170px;
 }
 .main-navigation {
   right: 0;
@@ -1318,14 +1329,15 @@ body {
   margin-top: 36vh;
   margin-bottom: 60vh;
   padding: 20px;
-  z-index: 100;
+  z-index: 600;
   right: 0;
 }
 .pagination p {
   transform: rotate(-90deg);
-  font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  line-height: 1.7;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.8;
   color: #ffffff;
 }
 .pagination__dot {
@@ -1357,8 +1369,11 @@ body {
   width: 100%;
 }
 .slide-02_image {
+  position: absolute;
   margin-top: 110px;
-  margin-bottom: 110px;
+  margin-bottom: -110px;
+  left: -220px;
+  opacity: 0;
   float: left;
   height: 700px;
   width: 45%;
@@ -1368,21 +1383,26 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no_repeat;
-  background-position: 50%, 50%;
+  background-position: 20%, 50%;
   text-align: center;
 }
-.slide-02_image img {
-  margin-top: 30%;
+.slide-02_image #oldLogo {
+  position: relative;
+  opacity: 0;
+  height: 240px;
+  margin-top: 400px;
+  margin-bottom: 160px;
 }
 .slide-02_img {
   position: absolute;
   padding-left: 100px;
 }
 .slide-02_content {
+  opacity: 0;
   float: right;
   display: block;
   position: relative;
-  margin-top: 110px;
+  margin-top: 210px;
   padding-top: 90px;
   width: 50%;
   height: 550px;
@@ -1423,8 +1443,10 @@ body {
   -webkit-align-self: center;
   margin-left: 10%;
   padding-left: 12%;
-  height: 70%;
+  height: 50%;
   width: 40%;
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 .slide-03_dropDown p {
   font-family: 'EB Garamond', serif;
@@ -1439,7 +1461,7 @@ body {
   font-weight: 100;
   font-size: 40px;
   text-align: center;
-  line-height: 10px;
+  line-height: 20px;
   letter-spacing: 10px;
   cursor: pointer;
 }
@@ -1451,26 +1473,26 @@ body {
   font-weight: 100;
   font-size: 40px;
   text-align: center;
-  line-height: 10px;
+  line-height: 20px;
   letter-spacing: 10px;
 }
 .slide-03_dropDown .dropDownNomber01 {
   position: absolute;
   display: inline-block;
   left: 0;
-  top: 8px;
+  top: 12px;
 }
 .slide-03_dropDown .dropDownNomber02 {
   position: absolute;
   display: inline-block;
   left: 0;
-  top: 84px;
+  top: 98px;
 }
 .slide-03_dropDown .dropDownNomber03 {
   position: absolute;
   display: inline-block;
   left: 0;
-  top: 160px;
+  top: 185px;
 }
 .dropDown-01 {
   height: 35%;
@@ -1488,13 +1510,15 @@ body {
   position: relative;
   height: 920px;
   width: 100%;
-  background-color: #ffffff;
+}
+.dropDownNomber02 {
+  position: relative;
+  top: 50px;
 }
 .Dishes {
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
-  -webkit-justify-content: center;
-  width: 34%;
+  float: left;
+  width: 33%;
+  height: 100%;
   background-image: url(../images/Dishes.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1505,25 +1529,32 @@ body {
   transition: all 1s;
 }
 .Dishes div {
-  -webkit-align-self: center;
-  height: 350px;
-  width: 350px;
-  margin-top: 300px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+  height: 35%;
+  width: 23%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
+}
+.Dishes img {
+  padding-top: 60px;
 }
 .Dishes:hover {
   background-position: 20%, 100%;
 }
-.Dishes:hover div {
-  height: 360px;
-  width: 360px;
-}
 .Service {
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
-  -webkit-justify-content: center;
-  width: 35%;
+  float: left;
+  width: 34%;
+  height: 100%;
   background-image: url(../images/Service.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1534,25 +1565,32 @@ body {
   transition: all 1s;
 }
 .Service div {
-  -webkit-align-self: center;
-  height: 350px;
-  width: 350px;
-  margin-top: 300px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+  height: 35%;
+  width: 23%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
+}
+.Service img {
+  padding-top: 60px;
 }
 .Service:hover {
   background-position: 20%, 100%;
 }
-.Service:hover div {
-  height: 360px;
-  width: 360px;
-}
 .laying {
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
-  -webkit-justify-content: center;
-  width: 34%;
+  float: right;
+  width: 33%;
+  height: 100%;
   background-image: url(../images/laying.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1563,17 +1601,38 @@ body {
   transition: all 1s;
 }
 .laying div {
-  -webkit-align-self: center;
-  height: 350px;
-  width: 350px;
-  margin-top: 300px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+  height: 35%;
+  width: 23%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
+}
+.laying img {
+  padding-top: 60px;
 }
 .laying:hover {
   background-position: 20%, 100%;
 }
-.laying:hover div {
-  height: 360px;
-  width: 360px;
+.slide-05 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #1c1c1c;
+  letter-spacing: 6px;
+  text-align: center;
+  float: left;
+  position: relative;
+  height: 920px;
+  width: 100%;
 }

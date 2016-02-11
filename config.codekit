@@ -40,6 +40,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/queryLoader.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/queryLoader.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -161,14 +170,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
+	"\/images\/Untitled-1.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 36975,
+		"inputAbbreviatedPath": "\/images\/Untitled-1.jpg",
+		"outputAbbreviatedPath": "\/images\/Untitled-1.jpg",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/jpg\/B1EAE9AE6FB90779.jpg": {
 		"fileType": 16384,
@@ -279,6 +290,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/js\/queryLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/queryLoader.js",
+		"outputAbbreviatedPath": "\/js\/min\/queryLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/main.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/main.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/min\/main_scripts-min.js": {
 		"fileType": 64,
