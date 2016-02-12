@@ -126,6 +126,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/client_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49074,
+		"inputAbbreviatedPath": "\/images\/client_01.jpg",
+		"outputAbbreviatedPath": "\/images\/client_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/client_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40962,
+		"inputAbbreviatedPath": "\/images\/client_02.jpg",
+		"outputAbbreviatedPath": "\/images\/client_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/client_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34689,
+		"inputAbbreviatedPath": "\/images\/client_03.jpg",
+		"outputAbbreviatedPath": "\/images\/client_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Dishes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

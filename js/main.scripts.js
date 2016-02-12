@@ -38,7 +38,7 @@ $('.slide-02_image').hide();
 $(window).scroll(function() {
 if ($(this).scrollTop() > 420){
 	$('.slide-02_image').css({opacity: "1"});
-$('.slide-02_image').animate({left: "0"},{ duration: 1000, easing: 'easeOutCirc' });
+$('.slide-02_image').animate({left: "0"},{ duration: 1500, easing: 'easeOutCirc' });
 }
 
 });

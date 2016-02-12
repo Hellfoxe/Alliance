@@ -1540,15 +1540,17 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .Dishes img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
-.Dishes:hover {
+.laying:hover {
   background-position: 20%, 100%;
 }
 .Service {
@@ -1576,15 +1578,17 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .Service img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
-.Service:hover {
+.laying:hover {
   background-position: 20%, 100%;
 }
 .laying {
@@ -1612,13 +1616,15 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .laying img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
 .laying:hover {
   background-position: 20%, 100%;
@@ -1630,9 +1636,16 @@ body {
   font-size: 32px;
   color: #1c1c1c;
   letter-spacing: 6px;
-  text-align: center;
+  margin-top: 30px;
   float: left;
   position: relative;
   height: 920px;
   width: 100%;
+}
+.clients {
+  width: 1180px;
+  background-color: red;
+  height: 260px;
+  margin-right: 20%;
+  margin-left: 20%;
 }
