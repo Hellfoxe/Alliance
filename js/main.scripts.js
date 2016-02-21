@@ -20,6 +20,25 @@
 
 
 
+
+
+
+
+
+
+// Anchor
+$(document).ready(function() {
+	$("a.ancLinks").click(function () {
+		var elementClick = $(this).attr("href");
+		var destination = $(elementClick).offset().top;
+		$('html,body').animate( { scrollTop: destination }, 1000 );
+		return false;
+	});
+});
+
+
+
+
 /*Scroll------->Slide02*/
 
 $('.slide-03_dropDown').hide();

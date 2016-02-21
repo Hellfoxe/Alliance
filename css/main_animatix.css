@@ -27,6 +27,7 @@
   from {
     transform: translateX(-65px);
     opacity: 0;
+    
   }
   to {
     opacity: 1;
