@@ -1362,7 +1362,7 @@ body {
   top: -48px;
   opacity: 1;
 }
-.slide-02 {
+#slide-02 {
   float: left;
   position: relative;
   height: 920px;
@@ -1445,7 +1445,7 @@ body {
   padding-left: 12%;
   height: 50%;
   width: 40%;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 15%;
 }
 .slide-03_dropDown p {
@@ -1540,13 +1540,15 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .Dishes img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
 .Dishes:hover {
   background-position: 20%, 100%;
@@ -1576,13 +1578,15 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .Service img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
 .Service:hover {
   background-position: 20%, 100%;
@@ -1612,13 +1616,15 @@ body {
   width: 23%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 100px;
   background-color: #ffffff;
   transition: all .5s;
 }
 .laying img {
-  padding-top: 60px;
+  padding-bottom: 5px;
+  margin-top: 75px;
 }
 .laying:hover {
   background-position: 20%, 100%;
@@ -1630,9 +1636,11 @@ body {
   font-size: 32px;
   color: #1c1c1c;
   letter-spacing: 6px;
-  text-align: center;
   float: left;
-  position: relative;
-  height: 920px;
+  height: 620px;
   width: 100%;
+}
+.slide-05 p {
+  margin-top: 60px;
+  margin-left: 5%;
 }
