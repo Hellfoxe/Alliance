@@ -983,14 +983,14 @@
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 32px;
-  color: #1c1c1c;
+  font-size: 30px;
   letter-spacing: 6px;
   text-align: center;
 }
 body {
   margin: 0;
   display: none;
+  min-width: 1250px;
 }
 .all-main-content {
   height: 100vh;
@@ -1442,10 +1442,10 @@ body {
   position: relative;
   -webkit-align-self: center;
   margin-left: 10%;
-  padding-left: 12%;
+  padding-left: 170px;
   height: 50%;
   width: 40%;
-  margin-top: 20%;
+  margin-top: 400px;
   margin-bottom: 15%;
 }
 .slide-03_dropDown p {
@@ -1506,10 +1506,12 @@ body {
   padding-bottom: 30px;
 }
 .slide-04 {
+  overflow: hidden;
   float: left;
   position: relative;
   height: 920px;
   width: 100%;
+  background-color: #e3e4e6;
 }
 .dropDownNomber02 {
   position: relative;
@@ -1532,8 +1534,7 @@ body {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 32px;
-  color: #1c1c1c;
+  font-size: 30px;
   letter-spacing: 6px;
   text-align: center;
   height: 35%;
@@ -1570,8 +1571,7 @@ body {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 32px;
-  color: #1c1c1c;
+  font-size: 30px;
   letter-spacing: 6px;
   text-align: center;
   height: 35%;
@@ -1608,8 +1608,7 @@ body {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 32px;
-  color: #1c1c1c;
+  font-size: 30px;
   letter-spacing: 6px;
   text-align: center;
   height: 35%;
